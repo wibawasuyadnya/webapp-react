@@ -1,4 +1,4 @@
-import react, { Fragment } from 'react';
+import React, { Fragment } from 'react';
 import data from '../assets/data/data';
 import { Button } from '@mui/material';
 import { ButtonContact } from '../assets/styles/MaterialUIStyle/MuiComponent';

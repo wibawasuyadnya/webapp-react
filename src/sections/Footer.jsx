@@ -1,4 +1,4 @@
-import react, { Fragment } from 'react';
+import React, { Fragment } from 'react';
 import data from '../assets/data/data';
 import { Divider } from '@mui/material';
 import { FaEnvelope, FaGithub, FaDribbble, FaTwitter, FaFacebook, FaInstagram } from "react-icons/fa";
@@ -21,7 +21,7 @@ function Footer() {
       <div className='bg-[color:var(--clr-footer)] min-h-full py-8 mx-auto'>
          <div className='container mx-auto flex flex-row xs:flex-col'>
           <div className='flex items-center justify-start xs:justify-center w-2/4 xs:w-full'>
-                <img className='float-left xs:float-none' src={image} width={250}/>
+                <img alt='footer logo' className='float-left xs:float-none' src={image} width={250}/>
           </div>
           <div className='flex items-center justify-end xs:justify-center w-2/4 xs:w-full'>
                 <h4 className='float-right xs:float-none'>  </h4>
@@ -30,7 +30,8 @@ function Footer() {
                     className="text-xl p-2 text-[color:var(--clr-btn-text)] hover:bg-[color:var(--clr-link)] border-2 border-[color:var(--clr-btn-border)] hover:border-[color:var(--clr-link)] rounded-full hover:text-white transition-colors duration-300"
                     href={footerdata.sclData.github}
                     target="_blank" 
-                  >
+                    rel="noreferrer"                 
+                    >
                     <FaGithub />
                     <span className="sr-only">Github</span>
                   </a>
@@ -38,6 +39,7 @@ function Footer() {
                     className="text-xl p-2 text-[color:var(--clr-btn-text)] hover:bg-[color:var(--clr-link)] border-2 border-[color:var(--clr-btn-border)] hover:border-[color:var(--clr-link)] rounded-full hover:text-white transition-colors duration-300"
                     href={footerdata.sclData.facebook}
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <FaFacebook />
                     <span className="sr-only">Facebook</span>
@@ -46,6 +48,7 @@ function Footer() {
                     className="text-xl p-2 text-[color:var(--clr-btn-text)] hover:bg-[color:var(--clr-link)] border-2 border-[color:var(--clr-btn-border)] hover:border-[color:var(--clr-link)] rounded-full hover:text-white transition-colors duration-300"
                     href={footerdata.sclData.instagram}
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <FaInstagram />
                     <span className="sr-only">Instagram</span>
@@ -54,6 +57,7 @@ function Footer() {
                     className="text-xl p-2 text-[color:var(--clr-btn-text)] hover:bg-[color:var(--clr-link)] border-2 border-[color:var(--clr-btn-border)] hover:border-[color:var(--clr-link)] rounded-full hover:text-white transition-colors duration-300"
                     href={footerdata.sclData.dribbble}
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <FaDribbble />
                     <span className="sr-only">Dribbble</span>
@@ -62,6 +66,7 @@ function Footer() {
                     className="text-xl p-2 text-[color:var(--clr-btn-text)] hover:bg-[color:var(--clr-link)] border-2 border-[color:var(--clr-btn-border)] hover:border-[color:var(--clr-link)] rounded-full hover:text-white transition-colors duration-300"
                     href={footerdata.sclData.twitter}
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <FaTwitter />
                     <span className="sr-only">Twitter</span>
@@ -70,6 +75,7 @@ function Footer() {
                     className="text-xl p-2 text-[color:var(--clr-btn-text)] hover:bg-[color:var(--clr-link)] border-2 border-[color:var(--clr-btn-border)] hover:border-[color:var(--clr-link)] rounded-full hover:text-white transition-colors duration-300"
                     href={footerdata.sclData.email}
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <FaEnvelope />
                     <span className="sr-only">Email</span>

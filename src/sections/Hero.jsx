@@ -58,7 +58,8 @@ function Hero() {
                   <a
                     className="text-xl p-2 text-[color:var(--clr-btn-text)] hover:bg-[color:var(--clr-link)] border-2 border-[color:var(--clr-btn-border)] hover:border-[color:var(--clr-link)] rounded-full hover:text-white transition-colors duration-300"
                     href={heroProps.socialData.github}
-                    target="_blank" 
+                    target="_blank"
+                    rel="noreferrer" 
                   >
                     <FaGithub />
                     <span className="sr-only">Github</span>
@@ -67,6 +68,7 @@ function Hero() {
                     className="text-xl p-2 text-[color:var(--clr-btn-text)] hover:bg-[color:var(--clr-link)] border-2 border-[color:var(--clr-btn-border)] hover:border-[color:var(--clr-link)] rounded-full hover:text-white transition-colors duration-300"
                     href={heroProps.socialData.facebook}
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <FaFacebook />
                     <span className="sr-only">Facebook</span>
@@ -75,6 +77,7 @@ function Hero() {
                     className="text-xl p-2 text-[color:var(--clr-btn-text)] hover:bg-[color:var(--clr-link)] border-2 border-[color:var(--clr-btn-border)] hover:border-[color:var(--clr-link)] rounded-full hover:text-white transition-colors duration-300"
                     href={heroProps.socialData.instagram}
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <FaInstagram />
                     <span className="sr-only">Instagram</span>
@@ -83,6 +86,7 @@ function Hero() {
                     className="text-xl p-2 text-[color:var(--clr-btn-text)] hover:bg-[color:var(--clr-link)] border-2 border-[color:var(--clr-btn-border)] hover:border-[color:var(--clr-link)] rounded-full hover:text-white transition-colors duration-300"
                     href={heroProps.socialData.dribbble}
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <FaDribbble />
                     <span className="sr-only">Dribbble</span>
@@ -91,6 +95,7 @@ function Hero() {
                     className="text-xl p-2 text-[color:var(--clr-btn-text)] hover:bg-[color:var(--clr-link)] border-2 border-[color:var(--clr-btn-border)] hover:border-[color:var(--clr-link)] rounded-full hover:text-white transition-colors duration-300"
                     href={heroProps.socialData.twitter}
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <FaTwitter />
                     <span className="sr-only">Twitter</span>
@@ -99,6 +104,7 @@ function Hero() {
                     className="text-xl p-2 text-[color:var(--clr-btn-text)] hover:bg-[color:var(--clr-link)] border-2 border-[color:var(--clr-btn-border)] hover:border-[color:var(--clr-link)] rounded-full hover:text-white transition-colors duration-300"
                     href={heroProps.socialData.email}
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <FaEnvelope />
                     <span className="sr-only">Email</span>

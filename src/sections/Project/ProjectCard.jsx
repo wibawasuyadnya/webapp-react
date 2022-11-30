@@ -1,4 +1,4 @@
-import react, { Fragment } from 'react';
+import React, { Fragment } from 'react';
 import { Box, Card, Typography, CardContent, Tooltip, IconButton } from '@mui/material/';
 import { GitHub } from '@mui/icons-material';
 import {TypoHeading, CardContet, CardStyle, CardButton} from '../../assets/styles/MaterialUIStyle/MuiComponent'

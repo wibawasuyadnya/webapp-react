@@ -1,4 +1,4 @@
-import react, { Fragment } from 'react';
+import React, { Fragment } from 'react';
 import data from '../assets/data/data';
 import axios from 'axios';
 import ProjectCard from './Project/ProjectCard';

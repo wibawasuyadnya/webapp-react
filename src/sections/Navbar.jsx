@@ -1,4 +1,4 @@
-import React,{ Fragment, useContext, useState } from 'react';
+import React,{ Fragment, useContext } from 'react';
 import { ThemeContext } from '../contexts/theme';
 import ToggleButton  from '../assets/styles/ToggleStyle/TogglerStyle';
 import { DarkModeSwitch } from 'react-toggle-dark-mode';
