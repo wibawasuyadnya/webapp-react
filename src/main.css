@@ -614,6 +614,10 @@ video {
   display: grid;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .h-12 {
   height: 3rem;
 }
@@ -798,6 +802,10 @@ video {
 
 .bg-\[color\:var\(--clr-bg-card\)\] {
   background-color: var(--clr-bg-card);
+}
+
+.object-cover {
+  object-fit: cover;
 }
 
 .p-2 {

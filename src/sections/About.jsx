@@ -23,9 +23,9 @@ function About() {
             <div>
                 <div className="w-2/3 xs:w-10/12 xs:p-4 flex flex-row justify-center items-center xs:flex-col m-auto ">    
                     <Swiper perspective="false" autoplay={{ delay: 5000, disableOnInteraction: false }} effect={"cards"} grabCursor={true} modules={[EffectCards,Autoplay]} className="mySwiper xs:w-10/12 xs:order-2 xs:mx-auto">
-                        <SwiperSlide className="mySwiperSlide "><img src={images1} alt="aboutPic"  className=" w-full "/></SwiperSlide>
-                        <SwiperSlide className="mySwiperSlide "><img src={images2} alt="aboutPic"  className=" w-full "/></SwiperSlide>
-                        <SwiperSlide className="mySwiperSlide "><img src={images3} alt="aboutPic"  className=" w-full "/></SwiperSlide>
+                        <SwiperSlide className="mySwiperSlide "><img src={images1} alt="aboutPic"  className=" w-full h-full object-cover"/></SwiperSlide>
+                        <SwiperSlide className="mySwiperSlide "><img src={images2} alt="aboutPic"  className=" w-full h-full object-cover"/></SwiperSlide>
+                        <SwiperSlide className="mySwiperSlide "><img src={images3} alt="aboutPic"  className=" w-full h-full object-cover"/></SwiperSlide>
                      </Swiper>
                     <h2 className="text-xl xs:text-base text-[color:var(--clr-text)] font-inter-normal xs:pb-8 xs:order-1 mx-14 xs:mx-0 tracking-wide">{aboutProps.desc}</h2>
                 </div>
