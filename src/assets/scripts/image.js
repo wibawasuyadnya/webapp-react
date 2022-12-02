@@ -7,6 +7,13 @@ export const ImageLogo = {
     logoNpm: require('../../images/tools-data/npm.svg').default,
     logoReact: require('../../images/tools-data/react.svg').default,
     logoGit: require('../../images/tools-data/git.svg').default,
+    logoMui: require('../../images/tools-data/mui.svg').default,
+    logoAngular: require('../../images/tools-data/Angular.svg').default,
+    logoDocker: require('../../images/tools-data/Docker.svg').default,
+    logoTailwind: require('../../images/tools-data/Tailwind.svg').default,
+    logoTypescript: require('../../images/tools-data/TypeScript.svg').default,
+    logoWordpress: require('../../images/tools-data/Wordpress.svg').default,
+    logoWebpack: require('../../images/tools-data/webpack.svg').default
 };
 
 export const ImagePortfolioIcon = {
@@ -16,5 +23,5 @@ export const ImagePortfolioIcon = {
     ImageElementor: require('../../images/portfolio-data/svg/Elementor.svg').default,
     ImageReact: require('../../images/portfolio-data/svg/React.svg').default,
     ImagejQuery: require('../../images/portfolio-data/svg/jQuery.svg').default,
-    ImageLaravel: require('../../images/portfolio-data/svg/Laravel.svg').default,
+    ImageLaravel: require('../../images/portfolio-data/svg/Laravel.svg').default
 };

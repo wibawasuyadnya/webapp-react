@@ -2,7 +2,7 @@ import React from "react";
 import { ImageLogo, ImagePortfolioIcon } from "../scripts/image";
 
 
-const iconSet = "mx-auto inline-block w-[60px]";
+const iconSet = "mx-auto inline-block w-6/12";
 const PortfolioSet = "rounded-[15px] xs:rounded-[8px] inline-block w-[70px] xs:w-[75%]";
 const data = {
     hero: {
@@ -34,9 +34,9 @@ const data = {
                 skillIcon: <img alt="skillLogo" src={ImageLogo.logoAdobe} className={iconSet} />
             },
             {
-                skillName: "CSS",
-                skillLink: "https://developer.mozilla.org/en-US/docs/Web/CSS",
-                skillIcon: <img alt="skillLogo" src={ImageLogo.logoCss} className={iconSet} />
+                skillName: "Tailwind",
+                skillLink: "https://tailwindcss.com/",
+                skillIcon: <img alt="skillLogo" src={ImageLogo.logoTailwind} className={iconSet} />
             },
             {
                 skillName: "Figma",
@@ -44,9 +44,9 @@ const data = {
                 skillIcon: <img alt="skillLogo" src={ImageLogo.logoFigma} className={iconSet} />
             },
             {
-                skillName: "Html",
-                skillLink: "https://developer.mozilla.org/en-US/docs/Web/HTML",
-                skillIcon: <img alt="skillLogo" src={ImageLogo.logoHtml5} className={iconSet} />
+                skillName: "TypeScript",
+                skillLink: "https://www.typescriptlang.org/",
+                skillIcon: <img alt="skillLogo" src={ImageLogo.logoTypescript} className={iconSet} />
             },
             {
                 skillName: "JavaScript",
@@ -64,10 +64,30 @@ const data = {
                 skillIcon: <img alt="skillLogo" src={ImageLogo.logoReact} className={iconSet} />
             },
             {
+                skillName: "Angular",
+                skillLink: "https://angular.io/",
+                skillIcon: <img alt="skillLogo" src={ImageLogo.logoAngular} className={iconSet} />
+            },
+            {
                 skillName: "Git",
                 skillLink: "https://git-scm.com/",
                 skillIcon: <img alt="skillLogo" src={ImageLogo.logoGit} className={iconSet} />
             },
+            {
+                skillName: "MaterialUI",
+                skillLink: "https://mui.com/",
+                skillIcon: <img alt="skillLogo" src={ImageLogo.logoMui} className={iconSet} />
+            },
+            {
+                skillName: "WordPress",
+                skillLink: "https://wordpress.org/",
+                skillIcon: <img alt="skillLogo" src={ImageLogo.logoWordpress} className={iconSet} />
+            },
+            {
+                skillName: "Webpack",
+                skillLink: "https://webpack.js.org/",
+                skillIcon: <img alt="skillLogo" src={ImageLogo.logoWebpack} className={iconSet} />
+            }
         ],
     },
     portfolio: {
