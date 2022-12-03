@@ -24,7 +24,7 @@ const data = {
     },
     about: {
         title: "About me",
-        desc: "Hey I'm Agus, I'm Bali based Front End Developer, UI/UX Designer. I enjoy designing and building a simple, innovative, and minimalist Interface design with the latest technology, and my experience. I can maintain and helping existing site for upgrade, I’m open for remote or full-time work and can easily adapt with your workflow and collaborative with team. Contact me for more info :3 "
+        desc: "Hi, I'm Agus. I'm a front-end developer and UI designer based in Bali. Interfaces are my thing, so designing and building them with new tech is my specialty. And of course I'll help you to build or maintaining your websites. I'm open for remote or full-time work and can easily adapt with your workflow and collaborative with team. let me know if you interested and contact me for more info :3 "
     },
     tools: {
         title: "Tech that I use",
@@ -96,13 +96,13 @@ const data = {
         HeadingTitleOne: [
             {
                 PortfolioHeading: "Multi Level Marketing Site",
-                PortfolioDescription: "We working together for building wellness MLM Project we focusing on automation affiliate MLM system, I'm responsible of front end and design mockup of upcoming landing page for promo campaign, this project was build using Wordpress, Bootstrap, Elementor and Php"
+                PortfolioDescription: "Working together for building wellness MLM Project we focusing on automation affiliate MLM system, I'm responsible of front end and design mockup of upcoming landing page for promo campaign, this project was build using Wordpress, Bootstrap, Elementor and Php"
             },    
         ],
         HeadingTitleTwo: [
             {
                 PortfolioHeading: "E-Commerce Store Site",
-                PortfolioDescription: "All Good Bud is a dynamic team in bali to support main company in UK, Wokingham, Berkshire, England. Here I'm working as a Front End Developer working on e-commerce site UI also maintainability for the store site, and I'm currently working Here ;)"
+                PortfolioDescription: "All Good Bud is a dynamic team in bali to support main company in UK, Wokingham, Berkshire, England. Here I'm working as a Front End Developer and have a responsible for e-commerce site front end also maintainability for the manufacture website, and I'm currently working Here ;)"
             },    
         ],
         iconListOne: [
