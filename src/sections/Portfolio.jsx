@@ -12,23 +12,14 @@ import '../assets/styles/SwiperStyle/swiperstyle.css';
 
 
 function Portfolio(){
-    const Title = (data.portfolio.title);
-    const SlideOneProps = {
-        ptechOne: (data.portfolio.iconListOne),
-        pHeadTechOne: (data.portfolio.HeadingTitleOne),
-        pDescTechOne: (data.portfolio.HeadingTitleOne),
-    }
-    const SlideTwoProps = {
-        ptechTwo: (data.portfolio.iconListTwo),
-        pHeadTechTwo: (data.portfolio.HeadingTitleTwo),
-        pDescTechTwo: (data.portfolio.HeadingTitleTwo),
-    }
-
-    return(
+     
+    const ptechData = (data.portfolio)
+    
+     return(
         <Fragment>
             <div className="container mx-auto min-h-full my-8">
                 <div className=" pt-7 pb-20 xs:pb-8">
-                   <h2 className="text-5xl xs:text-3xl text-[color:var(--clr-heading)] font-inter-bold text-center "> {Title} </h2>
+                   <h2 className="text-5xl xs:text-3xl text-[color:var(--clr-heading)] font-inter-bold text-center "> {ptechData.title} </h2>
                 </div>
             
                 <Swiper
@@ -45,17 +36,17 @@ function Portfolio(){
                 
                 <SwiperSlide>
                     <PortfolioSlideOne 
-                        ptechOne={SlideOneProps.ptechOne} 
-                        pHeadTechOne={SlideOneProps.pHeadTechOne} 
-                        pDescTechOne={SlideOneProps.pDescTechOne} 
+                        ptechOne={ptechData.iconListOne} 
+                        pHeadTechOne={ptechData.HeadingTitleOne} 
+                        pDescTechOne={ptechData.HeadingTitleOne} 
                     />
                 </SwiperSlide>
                 
                 <SwiperSlide>
                     <PortfolioSlideTwo 
-                    ptechTwo={SlideTwoProps.ptechTwo} 
-                    pHeadTechTwo={SlideTwoProps.pHeadTechTwo} 
-                    pDescTechTwo={SlideTwoProps.pDescTechTwo} 
+                    ptechTwo={ptechData.iconListTwo} 
+                    pHeadTechTwo={ptechData.HeadingTitleTwo} 
+                    pDescTechTwo={ptechData.HeadingTitleTwo} 
                     />
                 </SwiperSlide>
                 </Swiper>
