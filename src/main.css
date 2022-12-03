@@ -650,8 +650,8 @@ video {
   width: 3rem;
 }
 
-.w-\[60px\] {
-  width: 60px;
+.w-6\/12 {
+  width: 50%;
 }
 
 .w-\[70px\] {
@@ -678,10 +678,6 @@ video {
   width: 140px;
 }
 
-.w-6\/12 {
-  width: 50%;
-}
-
 .max-w-xl {
   max-width: 36rem;
 }
@@ -704,10 +700,6 @@ video {
 
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.grid-cols-5 {
-  grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -890,10 +882,6 @@ video {
 
 .font-inter-regular {
   font-family: inter-regular, sans-serif;
-}
-
-.font-inter-extra-bold {
-  font-family: inter-extra-bold, sans-serif;
 }
 
 .font-inter-semi-bold {
