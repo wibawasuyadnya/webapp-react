@@ -21,7 +21,7 @@ function Hero() {
                   <img src={images} width="140px" alt="logoMain" className="border-solid border-2 border-[#1a58a4] rounded-full m-auto"></img>
                 </div> 
                 <div className="">
-                  <h1 className="text-[color:var(--clr-heading)] text-6xl xs:text-3xl tracking-wider pb-[10px] pt-[10px] font-inter-extra-bold">Hey, I'm {heroProps.heroData.name}</h1>
+                  <h1 className="text-[color:var(--clr-heading)] text-6xl xs:text-3xl tracking-wider pb-[10px] pt-[10px] font-inter-semi-bold">Hey, I'm {heroProps.heroData.name}</h1>
                   <h3 className="text-[color:var(--clr-typing)] text-2xl xs:text-lg tracking-wider pt-[10px] font-inter-semi-bold">
                   <Typed
                     strings={heroProps.heroData.occupation}  
