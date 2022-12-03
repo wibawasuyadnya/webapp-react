@@ -30,7 +30,7 @@ function Portfolio(){
                 <div className=" pt-7 pb-20 xs:pb-8">
                    <h2 className="text-5xl xs:text-3xl text-[color:var(--clr-heading)] font-inter-bold text-center "> {Title} </h2>
                 </div>
-                {/* Intial Swiper Modules install */}
+            
                 <Swiper
                     modules={[Pagination, Autoplay]}
                     slidesPerView={1}
@@ -42,7 +42,7 @@ function Portfolio(){
                     }}
                     pagination={{ clickable: true }}
                 >
-                {/* Slide Element 1 */}
+                
                 <SwiperSlide>
                     <PortfolioSlideOne 
                         ptechOne={SlideOneProps.ptechOne} 
@@ -50,7 +50,7 @@ function Portfolio(){
                         pDescTechOne={SlideOneProps.pDescTechOne} 
                     />
                 </SwiperSlide>
-                {/* Slide Element 2 */}
+                
                 <SwiperSlide>
                     <PortfolioSlideTwo 
                     ptechTwo={SlideTwoProps.ptechTwo} 
