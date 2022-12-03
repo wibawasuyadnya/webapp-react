@@ -21,8 +21,8 @@ function Hero() {
                   <img src={images} width="140px" alt="logoMain" className="border-solid border-2 border-[#1a58a4] rounded-full m-auto"></img>
                 </div> 
                 <div className="">
-                  <h1 className="text-[color:var(--clr-heading)] text-6xl xs:text-3xl tracking-wider pb-[10px] pt-[10px] font-inter-bold">Hey, I'm {heroProps.heroData.name}</h1>
-                  <h3 className="text-[color:var(--clr-typing)] text-2xl xs:text-lg tracking-wider pt-[10px] font-inter-semi-bold">
+                  <h1 className="text-[color:var(--clr-secondary)] text-6xl xs:text-3xl tracking-wider pb-[10px] pt-[10px] font-inter-bold">Hey, I'm {heroProps.heroData.name}</h1>
+                  <h3 className="text-[color:var(--clr-text-custom)] text-2xl xs:text-lg tracking-wider pt-[10px] font-inter-semi-bold">
                   <Typed
                     strings={heroProps.heroData.occupation}  
                     typeSpeed={50}
@@ -56,7 +56,7 @@ function Hero() {
                 </div>
                 <div className="flex justify-center mt-4 space-x-4">
                   <a
-                    className="text-xl p-2 text-[color:var(--clr-btn-text)] hover:bg-[color:var(--clr-link)] border-2 border-[color:var(--clr-btn-border)] hover:border-[color:var(--clr-link)] rounded-full hover:text-white transition-colors duration-300"
+                    className="text-xl p-2 text-[color:var(--clr-secondary)] hover:bg-[color:var(--clr-link)] border-2 border-[color:var(--clr-border)] hover:border-[color:var(--clr-link)] rounded-full hover:text-white transition-colors duration-300"
                     href={heroProps.socialData.github}
                     target="_blank"
                     rel="noreferrer" 
@@ -65,7 +65,7 @@ function Hero() {
                     <span className="sr-only">Github</span>
                   </a>
                   <a
-                    className="text-xl p-2 text-[color:var(--clr-btn-text)] hover:bg-[color:var(--clr-link)] border-2 border-[color:var(--clr-btn-border)] hover:border-[color:var(--clr-link)] rounded-full hover:text-white transition-colors duration-300"
+                    className="text-xl p-2 text-[color:var(--clr-secondary)] hover:bg-[color:var(--clr-link)] border-2 border-[color:var(--clr-border)] hover:border-[color:var(--clr-link)] rounded-full hover:text-white transition-colors duration-300"
                     href={heroProps.socialData.facebook}
                     target="_blank"
                     rel="noreferrer"
@@ -74,7 +74,7 @@ function Hero() {
                     <span className="sr-only">Facebook</span>
                   </a>
                   <a
-                    className="text-xl p-2 text-[color:var(--clr-btn-text)] hover:bg-[color:var(--clr-link)] border-2 border-[color:var(--clr-btn-border)] hover:border-[color:var(--clr-link)] rounded-full hover:text-white transition-colors duration-300"
+                    className="text-xl p-2 text-[color:var(--clr-secondary)] hover:bg-[color:var(--clr-link)] border-2 border-[color:var(--clr-border)] hover:border-[color:var(--clr-link)] rounded-full hover:text-white transition-colors duration-300"
                     href={heroProps.socialData.instagram}
                     target="_blank"
                     rel="noreferrer"
@@ -83,7 +83,7 @@ function Hero() {
                     <span className="sr-only">Instagram</span>
                   </a>
                   <a
-                    className="text-xl p-2 text-[color:var(--clr-btn-text)] hover:bg-[color:var(--clr-link)] border-2 border-[color:var(--clr-btn-border)] hover:border-[color:var(--clr-link)] rounded-full hover:text-white transition-colors duration-300"
+                    className="text-xl p-2 text-[color:var(--clr-secondary)] hover:bg-[color:var(--clr-link)] border-2 border-[color:var(--clr-border)] hover:border-[color:var(--clr-link)] rounded-full hover:text-white transition-colors duration-300"
                     href={heroProps.socialData.dribbble}
                     target="_blank"
                     rel="noreferrer"
@@ -92,7 +92,7 @@ function Hero() {
                     <span className="sr-only">Dribbble</span>
                   </a>
                   <a
-                    className="text-xl p-2 text-[color:var(--clr-btn-text)] hover:bg-[color:var(--clr-link)] border-2 border-[color:var(--clr-btn-border)] hover:border-[color:var(--clr-link)] rounded-full hover:text-white transition-colors duration-300"
+                    className="text-xl p-2 text-[color:var(--clr-secondary)] hover:bg-[color:var(--clr-link)] border-2 border-[color:var(--clr-border)] hover:border-[color:var(--clr-link)] rounded-full hover:text-white transition-colors duration-300"
                     href={heroProps.socialData.twitter}
                     target="_blank"
                     rel="noreferrer"
@@ -101,7 +101,7 @@ function Hero() {
                     <span className="sr-only">Twitter</span>
                   </a>
                   <a
-                    className="text-xl p-2 text-[color:var(--clr-btn-text)] hover:bg-[color:var(--clr-link)] border-2 border-[color:var(--clr-btn-border)] hover:border-[color:var(--clr-link)] rounded-full hover:text-white transition-colors duration-300"
+                    className="text-xl p-2 text-[color:var(--clr-secondary)] hover:bg-[color:var(--clr-link)] border-2 border-[color:var(--clr-border)] hover:border-[color:var(--clr-link)] rounded-full hover:text-white transition-colors duration-300"
                     href={heroProps.socialData.email}
                     target="_blank"
                     rel="noreferrer"

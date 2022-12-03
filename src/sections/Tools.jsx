@@ -12,7 +12,7 @@ function Tools(){
  <Fragment>
       <div className="container min-h-[300px] mb-10 mx-auto">
         <div>
-          <h2 className="text-center text-5xl xs:text-3xl text-[color:var(--clr-heading)] font-inter-bold">{toolsProps.title}</h2>
+          <h2 className="text-center text-5xl xs:text-3xl text-[color:var(--clr-secondary)] font-inter-bold">{toolsProps.title}</h2>
         </div>
         <div className="grid grid-cols-4 xs:px-3 xs:grid-cols-3 align-center justify-center max-w-xl mx-auto mt-10">
       {

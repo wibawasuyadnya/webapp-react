@@ -14,9 +14,7 @@ import '../assets/styles/AboutStyle/about-slider.css';
 import { EffectCards } from "swiper";
 
 function About() {
-   const aboutProps = {
-        desc : (data.about.desc),
-   }
+   const aboutProps = (data.about);
     return (
         <Fragment>  
         <div id="about" className="container items-center w-full min-h-full pt-10 pb-20 xs:pt-5 xs:pb-10 mx-auto">
@@ -27,7 +25,10 @@ function About() {
                         <SwiperSlide className="mySwiperSlide "><img src={images2} alt="aboutPic"  className=" w-full h-full object-cover"/></SwiperSlide>
                         <SwiperSlide className="mySwiperSlide "><img src={images3} alt="aboutPic"  className=" w-full h-full object-cover"/></SwiperSlide>
                      </Swiper>
-                    <h2 className="text-xl xs:text-base text-[color:var(--clr-text)] font-inter-normal xs:pb-8 xs:order-1 mx-14 xs:mx-0 tracking-wide">{aboutProps.desc}</h2>
+                    <div className="xs:pb-8"> 
+                        <h2 className="text-4xl xs:text-xl text-[color:var(--clr-secondary)] font-inter-semi-bold mb-4 xs:mb-3 mx-14 xs:mx-0 tracking-wide">{aboutProps.title}</h2> 
+                        <h3 className="text-lg xs:text-base text-[color:var(--clr-body)] font-inter-normal xs:order-1 mx-14 xs:mx-0 tracking-wide">{aboutProps.desc}</h3>
+                    </div>
                 </div>
             </div>
         </div>

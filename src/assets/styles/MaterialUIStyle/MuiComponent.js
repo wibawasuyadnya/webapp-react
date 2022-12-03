@@ -5,7 +5,7 @@ const TypoHeading = createTheme({
         MuiTypography: {
             styleOverrides: {
                 h4: {
-                    color: "var(--clr-heading)",
+                    color: "var(--clr-secondary)",
                     fontSize: "24px",
                     lineHeight: "32px",
                     fontWeight: 600,
@@ -20,9 +20,11 @@ const CardStyle = createTheme({
         MuiCard: {
             styleOverrides: {
                 root: {
-                    backgroundColor: "var(--clr-bg-card)",
+                    backgroundColor: "var(--clr-primary)",
                     borderRadius: "15px",
+                    borderColor: "var(--clr-border-card)",
                     '&:hover': {
+                        background: "var(--clr-gradient)",
                         boxShadow: "0 0 15px 1px rgba(0,0,0,0.18)"
                     },
                 },
@@ -37,7 +39,7 @@ const CardButton = createTheme({
             styleOverrides: {
                 root: {
                     width: "35px",
-                    color: "var(--clr-heading)",
+                    color: "var(--clr-secondary)",
                 },
             },
         },
@@ -68,7 +70,7 @@ const ButtonContact = createTheme({
             styleOverrides: {
                 root: {
                     borderRadius: "25px",
-                    backgroundColor: "var(--clr-hmbrg)",
+                    backgroundColor: "var(--clr-border)",
                     color: "#FFF",
                     margin: "40px 0",
                     padding: "5px 40px",
@@ -93,10 +95,10 @@ const ButtonHero = createTheme({
         MuiButton: {
             styleOverrides: {
                 root: {
-                    borderColor: "var(--clr-btn-border)",
+                    borderColor: "var(--clr-border)",
                     borderRadius: "25px",
-                    backgroundColor: "var(--clr-btn)",
-                    color: "var(--clr-btn-text)",
+                    backgroundColor: "var(--clr-border)",
+                    color: "#F3F3F3",
                     borderWidth: 2,
                     padding: "5px 35px",
                     textTransform: "capitalize",

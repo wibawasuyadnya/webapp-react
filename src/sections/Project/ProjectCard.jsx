@@ -27,7 +27,7 @@ function ProjectCard(props) {
                                             {project.title}
                                         </Typography>
                                         <Typography 
-                                            className='text-base text-[color:var(--clr-text)] font-inter-normal' 
+                                            className='text-base text-[color:var(--clr-body)] font-inter-normal' 
                                             variant='body' 
                                             component="div">
                                             {project.desc}
@@ -37,7 +37,7 @@ function ProjectCard(props) {
                                             project.stack.map(( stack, index ) => {
                                                 return(
                                                     <Fragment key={index}>
-                                                        <li className='text-[color:var(--clr-text)] text-sm font-inter-medium'>
+                                                        <li className='text-[color:var(--clr-body)] text-sm font-inter-medium'>
                                                         {stack}
                                                         </li>    
                                                     </Fragment>

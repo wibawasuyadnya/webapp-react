@@ -31,7 +31,7 @@ const PortfolioHeadingOne = ({...data }) => {
     return (
         <Fragment>
             <div>
-                <h3 className="font-inter-semi-bold text-3xl xs:text-2xl xs:text-center text-[color:var(--clr-heading)] ">{data.pHeadOne}</h3>
+                <h3 className="font-inter-semi-bold text-3xl xs:text-2xl xs:text-center text-[color:var(--clr-secondary)] ">{data.pHeadOne}</h3>
             </div>
         </Fragment>      
     );
@@ -41,7 +41,7 @@ const PortfolioHeadingTwo = ({...data}) => {
     return (
         <Fragment>
             <div>
-                <h3 className="font-inter-semi-bold text-3xl xs:text-2xl xs:text-center  text-[color:var(--clr-heading)] ">{data.pHeadTwo}</h3>
+                <h3 className="font-inter-semi-bold text-3xl xs:text-2xl xs:text-center  text-[color:var(--clr-secondary)] ">{data.pHeadTwo}</h3>
             </div>
         </Fragment>
     );
@@ -54,7 +54,7 @@ const PortfolioDescOne = ({...data}) => {
     return (
         <Fragment>
             <div>
-                <p className="font-inter-normal text-lg xs:text-base xs:text-center text-[color:var(--clr-text)] tracking-wide">{data.pDescOne}</p>
+                <p className="font-inter-normal text-lg xs:text-base xs:text-center text-[color:var(--clr-body)] tracking-wide">{data.pDescOne}</p>
             </div>
         </Fragment>
     );
@@ -64,7 +64,7 @@ const PortfolioDescTwo = ({...data}) => {
     return ( 
         <Fragment>
             <div>
-                <p className="font-inter-normal text-lg xs:text-base xs:text-center text-[color:var(--clr-text)] tracking-wide">{data.pDescTwo}</p>
+                <p className="font-inter-normal text-lg xs:text-base xs:text-center text-[color:var(--clr-body)] tracking-wide">{data.pDescTwo}</p>
             </div>
         </Fragment>
     );

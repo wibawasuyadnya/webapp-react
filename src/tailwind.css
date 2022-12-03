@@ -4,6 +4,8 @@
 
 @import "tailwindcss/utilities";
 
+@import "./color.css";
+
 @font-face {
   font-family: 'inter-extra-bold';
   font-weight: 800;
@@ -47,34 +49,6 @@
 }
 
 .app {
-	background-color: var(--clr-bg);
+	background-color: var(--clr-primary);
   }
 
-  .light {
-	--clr-bg: #ffffff;
-	--clr-bg-card: #f3f3f3;
-	--clr-heading: #1a58a4;
-	--clr-sdbr: #e0e0e0;
-	--clr-link: #0c40b0;
-	--clr-text: #3a4f66;
-	--clr-typing: #3a4f66;
-	--clr-hmbrg: #1a3d61;
-	--clr-btn: #f3f3f3;
-	--clr-btn-border: #1a58a4;
-	--clr-btn-text: #1a58a4;
-	--clr-footer: #003060;
-  }
-  .dark {
-	--clr-bg: #001e3c;
-	--clr-bg-card: #00468d;
-	--clr-heading: #f3f3f3;
-	--clr-sdbr: #003060;
-	--clr-link: #0a4fe5;
-	--clr-text: #b2bac2;
-	--clr-typing: #b2bac2;
-	--clr-hmbrg: #00468d;
-	--clr-btn: #001e3c;
-	--clr-btn-border: #0c40b0;
-	--clr-btn-text: #b2bac2;
-	--clr-footer: #002850;
-  }

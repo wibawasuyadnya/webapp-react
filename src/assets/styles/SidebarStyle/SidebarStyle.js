@@ -4,7 +4,7 @@ export const StyledSidebar = styled.nav`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: var(--clr-sdbr);
+  background: var(--clr-sidebar);
   height: 100vh;
   width: 270px;
   padding: 2rem;

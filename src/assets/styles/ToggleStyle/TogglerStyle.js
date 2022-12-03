@@ -1,9 +1,13 @@
 import styled from 'styled-components';
 
     const ToggleButton = styled.a`
-        position: absolute;
+        position: fixed;
         top: 5%;
         right: 2rem;
+
+        @media (max-width: 600px) {
+        position: absolute;
+        }
     `
 
   export default ToggleButton ;

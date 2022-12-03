@@ -11,17 +11,11 @@
     opacity: 1;
     background: rgba(0, 0, 0, 0.2);
 }
-.swiper-pagination-bullet:hover {
-    background: #4d86cc 6f;
-}
 .swiper-pagination-bullet-active {
     color: #fff;
     width: 25px;
     height: 15px;
     border-radius: 10px;
-    background: var(--clr-btn-border);
-}
-.swiper-pagination-bullet-active:hover {
     background: var(--clr-link);
 }
 .swiper-pagination {

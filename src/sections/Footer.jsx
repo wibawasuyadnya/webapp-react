@@ -18,7 +18,7 @@ function Footer() {
   }
     return (
       <Fragment>
-      <div className='bg-[color:var(--clr-footer)] min-h-full py-8 mx-auto'>
+      <div className='bg-[color:var(--clr-tertiary)] min-h-full py-8 mx-auto'>
          <div className='container mx-auto flex flex-row xs:flex-col'>
           <div className='flex items-center justify-start xs:justify-center w-2/4 xs:w-full'>
                 <img alt='footer logo' className='float-left xs:float-none' src={image} width={250}/>
@@ -27,7 +27,7 @@ function Footer() {
                 <h4 className='float-right xs:float-none'>  </h4>
                 <div className="flex justify-center mt-4 space-x-4">
                   <a
-                    className="text-xl p-2 text-[color:var(--clr-btn-text)] hover:bg-[color:var(--clr-link)] border-2 border-[color:var(--clr-btn-border)] hover:border-[color:var(--clr-link)] rounded-full hover:text-white transition-colors duration-300"
+                    className="text-xl p-2 text-[color:var(--clr-secondary)] hover:bg-[color:var(--clr-link)] border-2 border-[color:var(--clr-border)] hover:border-[color:var(--clr-link)] rounded-full hover:text-white transition-colors duration-300"
                     href={footerdata.sclData.github}
                     target="_blank" 
                     rel="noreferrer"                 
@@ -36,7 +36,7 @@ function Footer() {
                     <span className="sr-only">Github</span>
                   </a>
                   <a
-                    className="text-xl p-2 text-[color:var(--clr-btn-text)] hover:bg-[color:var(--clr-link)] border-2 border-[color:var(--clr-btn-border)] hover:border-[color:var(--clr-link)] rounded-full hover:text-white transition-colors duration-300"
+                    className="text-xl p-2 text-[color:var(--clr-secondary)] hover:bg-[color:var(--clr-link)] border-2 border-[color:var(--clr-border)] hover:border-[color:var(--clr-link)] rounded-full hover:text-white transition-colors duration-300"
                     href={footerdata.sclData.facebook}
                     target="_blank"
                     rel="noreferrer"
@@ -45,7 +45,7 @@ function Footer() {
                     <span className="sr-only">Facebook</span>
                   </a>
                   <a
-                    className="text-xl p-2 text-[color:var(--clr-btn-text)] hover:bg-[color:var(--clr-link)] border-2 border-[color:var(--clr-btn-border)] hover:border-[color:var(--clr-link)] rounded-full hover:text-white transition-colors duration-300"
+                    className="text-xl p-2 text-[color:var(--clr-secondary)] hover:bg-[color:var(--clr-link)] border-2 border-[color:var(--clr-border)] hover:border-[color:var(--clr-link)] rounded-full hover:text-white transition-colors duration-300"
                     href={footerdata.sclData.instagram}
                     target="_blank"
                     rel="noreferrer"
@@ -54,7 +54,7 @@ function Footer() {
                     <span className="sr-only">Instagram</span>
                   </a>
                   <a
-                    className="text-xl p-2 text-[color:var(--clr-btn-text)] hover:bg-[color:var(--clr-link)] border-2 border-[color:var(--clr-btn-border)] hover:border-[color:var(--clr-link)] rounded-full hover:text-white transition-colors duration-300"
+                    className="text-xl p-2 text-[color:var(--clr-secondary)] hover:bg-[color:var(--clr-link)] border-2 border-[color:var(--clr-border)] hover:border-[color:var(--clr-link)] rounded-full hover:text-white transition-colors duration-300"
                     href={footerdata.sclData.dribbble}
                     target="_blank"
                     rel="noreferrer"
@@ -63,7 +63,7 @@ function Footer() {
                     <span className="sr-only">Dribbble</span>
                   </a>
                   <a
-                    className="text-xl p-2 text-[color:var(--clr-btn-text)] hover:bg-[color:var(--clr-link)] border-2 border-[color:var(--clr-btn-border)] hover:border-[color:var(--clr-link)] rounded-full hover:text-white transition-colors duration-300"
+                    className="text-xl p-2 text-[color:var(--clr-secondary)] hover:bg-[color:var(--clr-link)] border-2 border-[color:var(--clr-border)] hover:border-[color:var(--clr-link)] rounded-full hover:text-white transition-colors duration-300"
                     href={footerdata.sclData.twitter}
                     target="_blank"
                     rel="noreferrer"
@@ -72,7 +72,7 @@ function Footer() {
                     <span className="sr-only">Twitter</span>
                   </a>
                   <a
-                    className="text-xl p-2 text-[color:var(--clr-btn-text)] hover:bg-[color:var(--clr-link)] border-2 border-[color:var(--clr-btn-border)] hover:border-[color:var(--clr-link)] rounded-full hover:text-white transition-colors duration-300"
+                    className="text-xl p-2 text-[color:var(--clr-secondary)] hover:bg-[color:var(--clr-link)] border-2 border-[color:var(--clr-border)] hover:border-[color:var(--clr-link)] rounded-full hover:text-white transition-colors duration-300"
                     href={footerdata.sclData.email}
                     target="_blank"
                     rel="noreferrer"

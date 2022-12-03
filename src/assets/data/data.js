@@ -23,7 +23,8 @@ const data = {
         }
     },
     about: {
-        desc: "Hey I’m Agus, I’m Bali based Front End Developer, UI/UX Designer. I enjoy designing and building a simple, innovative, and minimalist Interface design with the latest technology, and my experience. I can maintain and helping existing site for upgrade, I’m open for remote or full-time work and can easily adapt with your workflow and collaborative with team. Contact me for more info :3 "
+        title: "About me",
+        desc: "Hey I'm Agus, I'm Bali based Front End Developer, UI/UX Designer. I enjoy designing and building a simple, innovative, and minimalist Interface design with the latest technology, and my experience. I can maintain and helping existing site for upgrade, I’m open for remote or full-time work and can easily adapt with your workflow and collaborative with team. Contact me for more info :3 "
     },
     tools: {
         title: "Tech that I use",
