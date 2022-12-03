@@ -8,7 +8,7 @@ const data = {
     hero: {
         name: "Agus Wibawa",
         occupation: [
-           "Front-End Developer",  
+           "Front-End Developer",
            "UI/UX Designer", 
         ],
         resume: "AgusWibawa-WebDesigner-CV.pdf",
