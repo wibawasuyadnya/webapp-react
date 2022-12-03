@@ -45,8 +45,8 @@ module.exports = {
   devtool: false,
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.join(__dirname, "./public/index.html"),
-      title: "Aplication"
+      template: path.join(__dirname, "public", "index.html"),
+      title: "Application"
     }),
   ],
   output: {
