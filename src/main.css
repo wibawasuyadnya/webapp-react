@@ -1195,6 +1195,22 @@ video {
 
 @media (max-width: 600px) {
 
+  .xs\:bottom-\[20px\] {
+    bottom: 20px;
+  }
+
+  .xs\:right-\[20px\] {
+    right: 20px;
+  }
+
+  .xs\:bottom-\[14px\] {
+    bottom: 14px;
+  }
+
+  .xs\:right-\[14px\] {
+    right: 14px;
+  }
+
   .xs\:order-2 {
     order: 2;
   }

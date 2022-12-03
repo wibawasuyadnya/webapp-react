@@ -7,6 +7,8 @@ import styled from 'styled-components';
 
         @media (max-width: 600px) {
         position: absolute;
+        top: 4%;
+        right: 1.5rem;
         }
     `
 

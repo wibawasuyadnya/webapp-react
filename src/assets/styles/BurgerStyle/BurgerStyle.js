@@ -42,6 +42,8 @@ export const StyledBurger = styled.button`
       
       @media (max-width: 600px) {
         position: absolute;
+        top: 4%;
+        left: 1.5rem;
       }
 
     `;
