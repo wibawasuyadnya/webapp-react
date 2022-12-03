@@ -24,7 +24,7 @@ const data = {
     },
     about: {
         title: "About me",
-        desc: "Hi, I'm Agus. I'm a front-end developer and UI designer based in Bali. Interfaces are my thing, so designing and building them with new tech is my specialty. And of course I'll help you to build or maintaining your websites. I'm open for remote or full-time work and can easily adapt with your workflow and collaborative with team. let me know if you interested and contact me for more info :3 "
+        desc: "Hi, I'm Agus. I'm a front-end developer and UI designer based in Bali. Interfaces are my thing, so designing and building them with new tech is my specialty. And of course I'll help you to build or maintaining your dream websites. I'm open for remote or full-time work and can easily adapt with your workflow and collaborative with team. let me know if you interested and contact me for more info :3 "
     },
     tools: {
         title: "Tech that I use",
@@ -102,7 +102,7 @@ const data = {
         HeadingTitleTwo: [
             {
                 PortfolioHeading: "E-Commerce Store Site",
-                PortfolioDescription: "All Good Bud is a dynamic team in bali to support main company in UK, Wokingham, Berkshire, England. Here I'm working as a Front End Developer and have a responsible for e-commerce site front end also maintainability for the manufacture website, and I'm currently working Here ;)"
+                PortfolioDescription: "All Good Bud is a dynamic team in bali to support main company in UK, Wokingham, Berkshire, England. Here I'm working as a Front End Developer and have a responsible for e-commerce site front end also maintainability for the manufacture website. Currently I'm working Here ;)"
             },    
         ],
         iconListOne: [
