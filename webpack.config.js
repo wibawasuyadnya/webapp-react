@@ -1,8 +1,12 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: path.resolve(__dirname, './src/index.js'),
   mode: 'production',
+  performance: {
+    hints: false
+  },
   module: {
     rules: [
       {
@@ -19,14 +23,14 @@ module.exports = {
         use: [
           {
             loader: 'svg-url-loader',
-            options: {
-              limit: 10000,
+            options: { 
+              limit: false 
             },
           },
         ],
       },
       {
-        test: /\.(png|jpe?g|gif)$/i,
+        test: /\.(svg|png|jpe?g|gif)$/i,
         use: [
           {
             loader: 'file-loader',
@@ -36,15 +40,25 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: ['*', '.js', '.jsx'],
+    extensions: ['.js', '.jsx'],
   },
+  devtool: false,
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: path.join(__dirname, "./public/index.html"),
+      title: "Aplication"
+    }),
+  ],
   output: {
-    filename: 'main.js',
-    path: path.resolve(__dirname, 'build'),
+    filename: '[name].bundle.js',
+    path: path.resolve(__dirname, 'dist'),
+    clean: true,
+    publicPath: '/',
   },
   devServer: {
-    contentBase: path.resolve(__dirname, 'build'),
+    port: 3000,
   },
-  
-  
+  optimization: {
+    runtimeChunk: 'single',
+  },
 };
