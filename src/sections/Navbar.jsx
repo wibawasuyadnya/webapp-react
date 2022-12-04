@@ -11,10 +11,10 @@ function Nabvar() {
     const [isDarkMode, setDarkMode] = useState(false);
 
     const [play] = useSound(swtichSFX, {
-        volume: 0.3,
+        volume: 0.4,
         sprite: {
-            switchON: [3000, 300],
-            switchOFF: [4400, 200]
+            switchON: [3100, 300],
+            switchOFF: [4450, 200]
         }
     });
 
@@ -25,7 +25,7 @@ function Nabvar() {
     return (
         <Fragment>
            <ToggleButton 
-            onClick={() => themeName === "dark" ? play({id: 'switchON'}) : play({id: 'switchOFF'})}>
+            onClick={() => themeName === "dark" ? play({id: 'switchOFF'}) : play({id: 'switchON'})}>
                 <DarkModeSwitch 
                 style={{
                     filter: 'drop-shadow(0px 1px 4px #FFFFFF)'
