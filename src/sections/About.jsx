@@ -27,7 +27,7 @@ function About() {
                      </Swiper>
                     <div className="xs:pb-8"> 
                         <h2 className="text-4xl xs:text-3xl text-[color:var(--clr-secondary)] font-inter-semi-bold mb-4 xs:mb-3 mx-14 xs:mx-0">{aboutProps.title}</h2> 
-                        <h3 className="text-lg xs:text-lg text-[color:var(--clr-body)] font-inter-normal xs:order-1 mx-14 xs:mx-0">{aboutProps.desc}</h3>
+                        <h3 className="text-lg text-[color:var(--clr-body)] font-inter-normal xs:order-1 mx-14 xs:mx-0">{aboutProps.desc}</h3>
                     </div>
                 </div>
             </div>
