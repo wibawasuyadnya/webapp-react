@@ -85,9 +85,9 @@ const data = {
                 skillIcon: <img alt="skillLogo" src={ImageLogo.logoWordpress} className={iconSet} />
             },
             {
-                skillName: "Webpack",
-                skillLink: "https://webpack.js.org/",
-                skillIcon: <img alt="skillLogo" src={ImageLogo.logoWebpack} className={iconSet} />
+                skillName: "VueJs",
+                skillLink: "https://vuejs.org/",
+                skillIcon: <img alt="skillLogo" src={ImageLogo.logoVue} className={iconSet} />
             }
         ],
     },
