@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
-import imageWnf from "../../images/portfolio-data/wnf.png";
-import imageAgb from "../../images/portfolio-data/agb.png";
+import imageWnf from "../../images/portfolio-data/wnf.webp";
+import imageAgb from "../../images/portfolio-data/agb.webp";
 
 //Component for Icon Here
 //Icon One
@@ -31,7 +31,7 @@ const PortfolioHeadingOne = ({...data }) => {
     return (
         <Fragment>
             <div>
-                <h3 className="font-inter-semi-bold text-3xl xs:text-2xl xs:text-center text-[color:var(--clr-secondary)] ">{data.pHeadOne}</h3>
+                <h3 className="font-inter-semi-bold text-3xl xs:text-3xl xs:text-center text-[color:var(--clr-secondary)] ">{data.pHeadOne}</h3>
             </div>
         </Fragment>      
     );
@@ -41,7 +41,7 @@ const PortfolioHeadingTwo = ({...data}) => {
     return (
         <Fragment>
             <div>
-                <h3 className="font-inter-semi-bold text-3xl xs:text-2xl xs:text-center  text-[color:var(--clr-secondary)] ">{data.pHeadTwo}</h3>
+                <h3 className="font-inter-semi-bold text-3xl xs:text-3xl xs:text-center  text-[color:var(--clr-secondary)] ">{data.pHeadTwo}</h3>
             </div>
         </Fragment>
     );
@@ -54,7 +54,7 @@ const PortfolioDescOne = ({...data}) => {
     return (
         <Fragment>
             <div>
-                <p className="font-inter-normal text-lg xs:text-base xs:text-center text-[color:var(--clr-body)] tracking-wide">{data.pDescOne}</p>
+                <p className="font-inter-normal text-lg xs:text-lg xs:text-center text-[color:var(--clr-body)] tracking-wide">{data.pDescOne}</p>
             </div>
         </Fragment>
     );
@@ -64,7 +64,7 @@ const PortfolioDescTwo = ({...data}) => {
     return ( 
         <Fragment>
             <div>
-                <p className="font-inter-normal text-lg xs:text-base xs:text-center text-[color:var(--clr-body)] tracking-wide">{data.pDescTwo}</p>
+                <p className="font-inter-normal text-lg xs:text-lg xs:text-center text-[color:var(--clr-body)] tracking-wide">{data.pDescTwo}</p>
             </div>
         </Fragment>
     );
@@ -77,7 +77,7 @@ const PortfolioDescTwo = ({...data}) => {
 function PortfolioSlideOne({...data}) {
     return(
         <Fragment>
-            <div className="container flex xs:flex-col mx-auto w-10/12">
+            <div className="container flex xs:flex-col mx-auto w-10/12 xs:w-full xs:px-3">
                 <div className="w-2/4 xs:w-full pr-6 xs:pr-0">
                     {
                         data.pHeadTechOne.map((HeadingTitleOne, index) => {
@@ -129,7 +129,7 @@ function PortfolioSlideOne({...data}) {
 function PortfolioSlideTwo({...data}) {
     return(
     <Fragment>
-        <div className="container flex xs:flex-col mx-auto w-10/12">
+        <div className="container flex xs:flex-col mx-auto w-10/12 xs:w-full xs:px-3">
             <div className="w-2/4 xs:w-full pr-6 xs:pr-0 ">
                     {
                         data.pHeadTechTwo.map((HeadingTitleTwo, index) => {

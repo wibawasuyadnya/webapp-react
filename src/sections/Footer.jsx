@@ -3,7 +3,7 @@ import data from '../assets/data/data';
 import { Divider } from '@mui/material';
 import { FaEnvelope, FaGithub, FaDribbble, FaTwitter, FaFacebook, FaInstagram } from "react-icons/fa";
 import { DividerStyle } from '../assets/styles/MaterialUIStyle/MuiComponent'
-import image from '../images/footer-data/BannerFooter.png';
+import image from '../images/footer-data/BannerFooter.webp';
 
 function getYearData() {
   var year = new Date().getFullYear();

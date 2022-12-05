@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
-import images1 from "../images/about-data/about-set1.png";
-import images2 from "../images/about-data/about-set2.png";
-import images3 from "../images/about-data/about-set3.png";
+import images1 from "../images/about-data/about-set1.webp";
+import images2 from "../images/about-data/about-set2.webp";
+import images3 from "../images/about-data/about-set3.webp";
 import data from "../assets/data/data";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
@@ -26,8 +26,8 @@ function About() {
                         <SwiperSlide className="mySwiperSlide "><img src={images3} alt="aboutPic"  className=" w-full h-full object-cover"/></SwiperSlide>
                      </Swiper>
                     <div className="xs:pb-8"> 
-                        <h2 className="text-4xl xs:text-2xl text-[color:var(--clr-secondary)] font-inter-semi-bold mb-4 xs:mb-3 mx-14 xs:mx-0 tracking-wide">{aboutProps.title}</h2> 
-                        <h3 className="text-lg xs:text-base text-[color:var(--clr-body)] font-inter-normal xs:order-1 mx-14 xs:mx-0 tracking-wide">{aboutProps.desc}</h3>
+                        <h2 className="text-4xl xs:text-3xl text-[color:var(--clr-secondary)] font-inter-semi-bold mb-4 xs:mb-3 mx-14 xs:mx-0">{aboutProps.title}</h2> 
+                        <h3 className="text-lg xs:text-lg text-[color:var(--clr-body)] font-inter-normal xs:order-1 mx-14 xs:mx-0">{aboutProps.desc}</h3>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import images from "../images/hero-data/agus.png";
+import images from "../images/hero-data/agus.webp";
 import { FaEnvelope, FaGithub, FaDribbble, FaTwitter, FaFacebook, FaInstagram } from "react-icons/fa";
 import data from "../assets/data/data";
 import { Button } from "@mui/material";
@@ -21,8 +21,8 @@ function Hero() {
                   <img src={images} width="140px" alt="logoMain" className="border-solid border-2 border-[#1a58a4] rounded-full m-auto"></img>
                 </div> 
                 <div className="">
-                  <h1 className="text-[color:var(--clr-secondary)] text-6xl xs:text-3xl tracking-wider pb-[10px] pt-[10px] font-inter-bold">Hey, I'm {heroProps.heroData.name}</h1>
-                  <h3 className="text-[color:var(--clr-text-custom)] text-2xl xs:text-lg tracking-wider pt-[10px] font-inter-semi-bold">
+                  <h1 className=" bg-gradient-to-r from-[color:var(--clr-gradient-text)] to-[color:var(--clr-gradient-text-secondary)] bg-clip-text text-transparent text-6xl xs:text-5xl xs:leading-tight pb-[10px] pt-[10px] font-inter-extra-bold">Hey, I'm {heroProps.heroData.name}</h1>
+                  <h3 className="text-[color:var(--clr-text-custom)] text-2xl xs:text-lg pt-[10px] font-inter-semi-bold">
                   <Typed
                     strings={heroProps.heroData.occupation}  
                     typeSpeed={50}

@@ -19,7 +19,7 @@ function Portfolio(){
         <Fragment>
             <div className="container mx-auto min-h-full my-8">
                 <div className=" pt-7 pb-20 xs:pb-8">
-                   <h2 className="text-5xl xs:text-3xl text-[color:var(--clr-secondary)] font-inter-bold text-center "> {ptechData.title} </h2>
+                   <h2 className="text-5xl xs:text-4xl text-[color:var(--clr-secondary)] font-inter-bold text-center "> {ptechData.title} </h2>
                 </div>
             
                 <Swiper

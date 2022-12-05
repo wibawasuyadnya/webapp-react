@@ -25,7 +25,7 @@ function Project() {
     return (
        <Fragment>
         <div className='mx-auto w-full my-16'>
-            <h2 className='text-center text-[color:var(--clr-secondary)] pt-7 pb-20 xs:pb-10 text-5xl xs:text-3xl font-inter-bold'>{title}</h2>
+            <h2 className='text-center text-[color:var(--clr-secondary)] pt-7 pb-20 xs:pb-10 text-5xl xs:text-4xl font-inter-bold'>{title}</h2>
             <ProjectCard projects={project}/>
         </div>
        </Fragment>
