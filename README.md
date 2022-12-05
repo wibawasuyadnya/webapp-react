@@ -8,7 +8,7 @@ Description : An Web application for simple portfolio built with React, Tailwind
 
 ## Project Status
 
-(INCOMPLETE STILL UNDER DEVELOPMENT)
+COMPLETED CLOSED SOURCE
 
 #### Usage & Instalation
 
