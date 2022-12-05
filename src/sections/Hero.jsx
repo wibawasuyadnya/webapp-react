@@ -22,7 +22,7 @@ function Hero() {
                 </div> 
                 <div className="">
                   <h1 className=" bg-gradient-to-r from-[color:var(--clr-gradient-text)] to-[color:var(--clr-gradient-text-secondary)] bg-clip-text text-transparent text-6xl xs:text-5xl xs:leading-tight pb-[10px] pt-[10px] font-inter-extra-bold">Hey, I'm {heroProps.heroData.name}</h1>
-                  <h3 className="text-[color:var(--clr-text-custom)] text-2xl xs:text-lg pt-[10px] font-inter-semi-bold">
+                  <h3 className="text-[color:var(--clr-text-custom)] text-2xl pt-[10px] font-inter-semi-bold">
                   <Typed
                     strings={heroProps.heroData.occupation}  
                     typeSpeed={50}
