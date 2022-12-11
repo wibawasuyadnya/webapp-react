@@ -32,7 +32,7 @@
         {
             "id": "4",
             "title": "Portfolio Angular",
-            "desc": "Web App Portfolio using Angular cli version 8.3.2.",
+            "desc": "Web App Portfolio using Angular cli version 8.3.2. and Bootstrap",
             "stack": [
                 "Angular",
                 "Bootstrap",
@@ -43,7 +43,7 @@
         {
             "id": "5",
             "title": "Noteapp",
-            "desc": "CRUD Note Webapp with Filter search and animation",
+            "desc": "CRUD Note Webapp with Filter search and animation with Angular and Tailwindcss",
             "stack": [
                 "Angular",
                 "Tailwindcss",
