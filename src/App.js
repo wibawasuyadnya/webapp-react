@@ -1,3 +1,4 @@
+import React, { Fragment } from 'react';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Notfound from './pages/Notfound';
@@ -5,12 +6,13 @@ import Notfound from './pages/Notfound';
 
 function App() {
   return (
-    <>
+    <Fragment>
       <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="*" element={<Notfound/>} />
+        <Route exact path="/404" element={<Notfound/>} />
+        <Route path="*" element={<Navigate to="/404" replace/>} />
       </Routes>
-    </>
+    </Fragment>
   );
 }
 

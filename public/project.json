@@ -43,7 +43,7 @@
         {
             "id": "5",
             "title": "Noteapp",
-            "desc": "CRUD Note Webapp with Filter search and animation with Angular and Tailwindcss",
+            "desc": "CRUD Note Webapp with Filter search and animation with Angular 15",
             "stack": [
                 "Angular",
                 "Tailwindcss",

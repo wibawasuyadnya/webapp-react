@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import { NavLink } from "react-router-dom";
 import { StyledSidebar } from '../../assets/styles/SidebarStyle/SidebarStyle';
 import { bool, func } from 'prop-types';
 import { Link } from "react-scroll";
@@ -51,6 +52,15 @@ const Sidebar = ({ open, setOpen }) => {
   );
 }
 
+const Sidebarerror = ({ open }) => {
+  return (
+    <Fragment>
+      <StyledSidebar open={open}>
+            <NavLink className="cursor-pointer text-4xl text-[color:var(--clr-secondary)] hover:text-[color:var(--clr-link)] transition-transform duration-200 ease-in-out hover:scale-105 font-inter-bold tracking-wider flex align-center justify-center my-4" to="/" >Home</NavLink>
+      </StyledSidebar>
+    </Fragment>
+  )
+}
 
 
 Sidebar.propTypes = {
@@ -58,4 +68,8 @@ Sidebar.propTypes = {
   setOpen: func.isRequired,
 };
 
-export default Sidebar;
+Sidebarerror.propTypes = {
+  open: bool.isRequired
+}
+
+export { Sidebar, Sidebarerror };

@@ -1,7 +1,7 @@
 import React, { Fragment, useContext } from 'react';
 import { ThemeContext } from '../contexts/theme';
 import Nabvar from '../sections/Navbar';
-import Header from '../sections/Header';
+import { Header } from '../sections/Header';
 import Hero from '../sections/Hero';
 import About from '../sections/About';
 import Tools from '../sections/Tools';
@@ -14,7 +14,7 @@ import ScrolltoTop from '../sections/Scroll';
 import { Element } from "react-scroll";
 
 function Home() {
-  const [{ themeName }] = useContext(ThemeContext)
+  const [{ themeName }] = useContext(ThemeContext);
   return (
     <Fragment>
        <div className={`${themeName} app`}>
