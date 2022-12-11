@@ -9,6 +9,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="*" element={<Notfound/>} />
+        <Route element={<Notfound/>} />
       </Routes>
     </>
   );
