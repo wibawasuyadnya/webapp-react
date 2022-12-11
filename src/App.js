@@ -8,7 +8,8 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="" element={<Notfound/>} />
+        <Route path="*" element={<Notfound/>} />
+        <Route path="/author/agus" element={<Navigate to="*" />}/>
       </Routes>
     </>
   );
