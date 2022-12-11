@@ -17,7 +17,6 @@ function Home() {
   const [{ themeName }] = useContext(ThemeContext)
   return (
     <Fragment>
-
        <div className={`${themeName} app`}>
           <header>
             <Header/>
