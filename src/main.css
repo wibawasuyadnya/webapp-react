@@ -626,6 +626,10 @@ video {
   height: 3rem;
 }
 
+.min-h-screen {
+  min-height: 100vh;
+}
+
 .min-h-full {
   min-height: 100%;
 }
@@ -636,27 +640,6 @@ video {
 
 .min-h-\[300px\] {
   min-height: 300px;
-}
-
-.min-h-screen {
-  min-height: 100vh;
-}
-
-.min-h-\[500px\] {
-  min-height: 500px;
-}
-
-.min-h-\[100vh\] {
-  min-height: 100vh;
-}
-
-.min-h-fit {
-  min-height: -moz-fit-content;
-  min-height: fit-content;
-}
-
-.min-h-\[600px\] {
-  min-height: 600px;
 }
 
 .w-full {
@@ -759,6 +742,12 @@ video {
   gap: 0.5rem;
 }
 
+.space-y-3 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
+}
+
 .space-y-8 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
@@ -783,18 +772,6 @@ video {
   margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.space-y-5 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
-}
-
-.space-y-3 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
-}
-
 .rounded-full {
   border-radius: 9999px;
 }
@@ -815,13 +792,13 @@ video {
   border-style: solid;
 }
 
-.border-\[color\:var\(--clr-border\)\] {
-  border-color: var(--clr-border);
-}
-
 .border-\[\#1a58a4\] {
   --tw-border-opacity: 1;
   border-color: rgb(26 88 164 / var(--tw-border-opacity));
+}
+
+.border-\[color\:var\(--clr-border\)\] {
+  border-color: var(--clr-border);
 }
 
 .bg-\[color\:var\(--clr-tertiary\)\] {
@@ -888,6 +865,14 @@ video {
   padding-right: 1.75rem;
 }
 
+.pb-\[10px\] {
+  padding-bottom: 10px;
+}
+
+.pt-\[10px\] {
+  padding-top: 10px;
+}
+
 .pt-10 {
   padding-top: 2.5rem;
 }
@@ -908,14 +893,6 @@ video {
   padding-bottom: 2rem;
 }
 
-.pb-\[10px\] {
-  padding-bottom: 10px;
-}
-
-.pt-\[10px\] {
-  padding-top: 10px;
-}
-
 .pr-6 {
   padding-right: 1.5rem;
 }
@@ -932,6 +909,10 @@ video {
   font-family: inter-bold, sans-serif;
 }
 
+.font-inter-medium {
+  font-family: inter-medium, sans-serif;
+}
+
 .font-inter-normal {
   font-family: inter-normal, sans-serif;
 }
@@ -944,8 +925,8 @@ video {
   font-family: inter-semi-bold, sans-serif;
 }
 
-.font-inter-medium {
-  font-family: inter-medium, sans-serif;
+.text-\[150px\] {
+  font-size: 150px;
 }
 
 .text-5xl {
@@ -953,14 +934,14 @@ video {
   line-height: 1;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-xl {
@@ -998,20 +979,12 @@ video {
   line-height: 1.25rem;
 }
 
-.text-\[80px\] {
-  font-size: 80px;
+.text-\[130px\] {
+  font-size: 130px;
 }
 
-.text-\[280px\] {
-  font-size: 280px;
-}
-
-.text-\[180px\] {
-  font-size: 180px;
-}
-
-.text-\[150px\] {
-  font-size: 150px;
+.text-\[140px\] {
+  font-size: 140px;
 }
 
 .capitalize {
@@ -1279,12 +1252,12 @@ video {
     border-radius: 8px;
   }
 
-  .xs\:p-4 {
-    padding: 1rem;
-  }
-
   .xs\:p-2 {
     padding: 0.5rem;
+  }
+
+  .xs\:p-4 {
+    padding: 1rem;
   }
 
   .xs\:px-5 {
@@ -1322,9 +1295,23 @@ video {
     text-align: center;
   }
 
-  .xs\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+  .xs\:text-\[70px\] {
+    font-size: 70px;
+  }
+
+  .xs\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .xs\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .xs\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   .xs\:text-4xl {
@@ -1341,44 +1328,13 @@ video {
     font-size: 28px;
   }
 
-  .xs\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
   .xs\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
 
-  .xs\:text-\[100px\] {
-    font-size: 100px;
-  }
-
-  .xs\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
-
-  .xs\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
-  .xs\:text-\[70px\] {
-    font-size: 70px;
-  }
-
   .xs\:leading-tight {
     line-height: 1.25;
-  }
-
-  .xs\:text-\[100\] {
-    color: 100;
-  }
-
-  .xs\:text-\[100\[x\]\] {
-    color: 100[x];
   }
 }
 
