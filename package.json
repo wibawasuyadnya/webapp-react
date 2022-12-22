@@ -74,6 +74,6 @@
     "svg-url-loader": "^8.0.0",
     "tailwindcss": "^3.2.4",
     "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.0"
+    "webpack-cli": "^5.0.1"
   }
 }
