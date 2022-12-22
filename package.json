@@ -34,7 +34,6 @@
   "scripts": {
     "build:tailwind": "postcss src/tailwind.css -o src/main.css",
     "watch:tailwind": "postcss -w src/tailwind.css -o src/main.css",
-    "watch-css": "less-watch-compiler src/ ./",
     "start": "react-scripts start",
     "dev": "run-p watch:tailwind start",
     "prebuild": "npm run build:tailwind",

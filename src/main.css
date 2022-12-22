@@ -925,8 +925,8 @@ video {
   font-family: inter-semi-bold, sans-serif;
 }
 
-.text-\[150px\] {
-  font-size: 150px;
+.text-\[140px\] {
+  font-size: 140px;
 }
 
 .text-5xl {
@@ -977,14 +977,6 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-\[130px\] {
-  font-size: 130px;
-}
-
-.text-\[140px\] {
-  font-size: 140px;
 }
 
 .capitalize {
